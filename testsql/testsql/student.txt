@@ -1,0 +1,37 @@
+create table person(
+	id int,
+	name char(15) unique,
+	score float,
+        age int,
+        sex char(1),
+	primary key(id) 
+);
+
+execfile instruction0.txt;
+
+
+execfile instruction1.txt;
+
+
+execfile instruction2.txt;
+
+
+execfile instruction3.txt;
+
+
+execfile instruction4.txt;
+
+
+execfile instruction5.txt;
+
+
+execfile instruction6.txt;
+
+
+execfile instruction7.txt;
+
+
+execfile instruction8.txt;
+
+
+execfile instruction9.txt;

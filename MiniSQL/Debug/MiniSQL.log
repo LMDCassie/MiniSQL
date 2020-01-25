@@ -1,0 +1,116 @@
+﻿  CatalogManager.cpp
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(13): error C2143: syntax error: missing ';' before '<'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(13): error C2238: unexpected token(s) preceding ';'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(15): error C2143: syntax error: missing ';' before '<'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(15): error C2238: unexpected token(s) preceding ';'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(35): error C2061: syntax error: identifier 'Table'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(36): error C2061: syntax error: identifier 'Index'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(37): error C2061: syntax error: identifier 'Table'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(38): error C2061: syntax error: identifier 'Index'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(39): error C2061: syntax error: identifier 'string'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(39): error C2535: 'void CatalogManager::dropTable(void)': member function already defined or declared
+  c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(37): note: see declaration of 'CatalogManager::dropTable'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(40): error C2061: syntax error: identifier 'string'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(40): error C2535: 'void CatalogManager::dropIndex(void)': member function already defined or declared
+  c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(38): note: see declaration of 'CatalogManager::dropIndex'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(41): error C2061: syntax error: identifier 'Table'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(42): error C2061: syntax error: identifier 'Index'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(42): error C2535: 'void CatalogManager::update(void)': member function already defined or declared
+  c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(41): note: see declaration of 'CatalogManager::update'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(43): error C2061: syntax error: identifier 'string'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(44): error C2061: syntax error: identifier 'string'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(45): error C2061: syntax error: identifier 'string'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(45): error C2535: 'bool CatalogManager::ExistIndex(void)': member function already defined or declared
+  c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(44): note: see declaration of 'CatalogManager::ExistIndex'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(46): error C3646: 'getTableInformation': unknown override specifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(46): error C2059: syntax error: '('
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(46): error C2238: unexpected token(s) preceding ';'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(47): error C3646: 'getIndexInformation': unknown override specifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(47): error C2059: syntax error: '('
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(47): error C2238: unexpected token(s) preceding ';'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(48): error C3646: 'getIndexInformation': unknown override specifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(48): error C2059: syntax error: '('
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(48): error C2238: unexpected token(s) preceding ';'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(52): error C2061: syntax error: identifier 'Table'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.h(53): error C2061: syntax error: identifier 'Table'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(4): error C2146: syntax error: missing ';' before identifier 'filename'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(4): error C2065: 'filename': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(5): error C2065: 'fstream': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(5): error C2146: syntax error: missing ';' before identifier 'fin'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(5): error C2065: 'filename': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(5): error C2653: 'ios': is not a class or namespace name
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(5): error C2065: 'in': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(5): error C3861: 'fin': identifier not found
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(6): error C2065: 'fin': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(9): error C2065: 'Table': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(9): error C2146: syntax error: missing ';' before identifier 'temp_table'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(9): error C2065: 'temp_table': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(10): error C2065: 'fin': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(10): error C2065: 'temp_table': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(11): error C2065: 'fin': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(11): error C2065: 'temp_table': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(12): error C2065: 'fin': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(12): error C2065: 'temp_table': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(13): error C2065: 'temp_table': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(15): error C2065: 'Attribute': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(15): error C2146: syntax error: missing ';' before identifier 'temp_attri'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(15): error C2065: 'temp_attri': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(16): error C2065: 'fin': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(16): error C2065: 'temp_attri': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(17): error C2065: 'fin': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(17): error C2065: 'temp_attri': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(18): error C2065: 'fin': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(18): error C2065: 'temp_attri': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(19): error C2065: 'fin': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(19): error C2065: 'temp_attri': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(20): error C2065: 'fin': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(20): error C2065: 'temp_attri': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(21): error C2065: 'temp_table': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(21): error C2065: 'temp_attri': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(22): error C2065: 'temp_table': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(22): error C2065: 'temp_attri': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(24): error C2065: 'tables': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(24): error C2065: 'temp_table': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(26): error C2065: 'fin': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(30): error C2146: syntax error: missing ';' before identifier 'filename'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(30): error C2065: 'filename': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(31): error C2065: 'fstream': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(31): error C2146: syntax error: missing ';' before identifier 'fin'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(31): error C2065: 'filename': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(31): error C2653: 'ios': is not a class or namespace name
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(31): error C2065: 'in': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(31): error C3861: 'fin': identifier not found
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(32): error C2065: 'fin': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(35): error C2065: 'Index': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(35): error C2146: syntax error: missing ';' before identifier 'temp_index'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(35): error C2065: 'temp_index': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(36): error C2065: 'fin': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(36): error C2065: 'temp_index': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(37): error C2065: 'fin': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(37): error C2065: 'temp_index': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(38): error C2065: 'fin': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(38): error C2065: 'temp_index': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(39): error C2065: 'fin': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(39): error C2065: 'temp_index': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(40): error C2065: 'fin': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(40): error C2065: 'temp_index': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(41): error C2065: 'indexes': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(41): error C2065: 'temp_index': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(43): error C2065: 'fin': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(47): error C2065: 'string': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(47): error C2146: syntax error: missing ';' before identifier 'filename'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(47): error C2065: 'filename': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(48): error C2065: 'fstream': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(48): error C2146: syntax error: missing ';' before identifier 'fout'
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(48): error C2065: 'filename': undeclared identifier
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(48): error C2653: 'ios': is not a class or namespace name
+c:\users\cassie\documents\tencent files\2629809936\filerecv\catalogmanager.cpp(48): fatal error C1003: error count exceeds 100; stopping compilation
+  Interpreter.cpp
+c:\users\cassie\documents\tencent files\2629809936\filerecv\interpreter.cpp(2): fatal error C1083: Cannot open include file: 'Catalog.h': No such file or directory
+  BufferManager.cpp
+  RecordManager.cpp
+  Generating Code...

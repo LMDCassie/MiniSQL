@@ -1,0 +1,55 @@
+# Project: 项目1
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = API/API.o BufferManager/BufferManager.o CatalogManager/CatalogManager.o IndexManager/bplus.o IndexManager/IndexManager.o Interpreter/SQLGrammarTree.o Interpreter/Lex/Analysis.o Interpreter/Lex/lex.o RecordManager/RecordManager.o MiniSQL.o
+LINKOBJ  = API/API.o BufferManager/BufferManager.o CatalogManager/CatalogManager.o IndexManager/bplus.o IndexManager/IndexManager.o Interpreter/SQLGrammarTree.o Interpreter/Lex/Analysis.o Interpreter/Lex/lex.o RecordManager/RecordManager.o MiniSQL.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = 项目1.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+API/API.o: API/API.cpp
+	$(CPP) -c API/API.cpp -o API/API.o $(CXXFLAGS)
+
+BufferManager/BufferManager.o: BufferManager/BufferManager.cpp
+	$(CPP) -c BufferManager/BufferManager.cpp -o BufferManager/BufferManager.o $(CXXFLAGS)
+
+CatalogManager/CatalogManager.o: CatalogManager/CatalogManager.cpp
+	$(CPP) -c CatalogManager/CatalogManager.cpp -o CatalogManager/CatalogManager.o $(CXXFLAGS)
+
+IndexManager/bplus.o: IndexManager/bplus.cpp
+	$(CPP) -c IndexManager/bplus.cpp -o IndexManager/bplus.o $(CXXFLAGS)
+
+IndexManager/IndexManager.o: IndexManager/IndexManager.cpp
+	$(CPP) -c IndexManager/IndexManager.cpp -o IndexManager/IndexManager.o $(CXXFLAGS)
+
+Interpreter/SQLGrammarTree.o: Interpreter/SQLGrammarTree.cpp
+	$(CPP) -c Interpreter/SQLGrammarTree.cpp -o Interpreter/SQLGrammarTree.o $(CXXFLAGS)
+
+Interpreter/Lex/Analysis.o: Interpreter/Lex/Analysis.cpp
+	$(CPP) -c Interpreter/Lex/Analysis.cpp -o Interpreter/Lex/Analysis.o $(CXXFLAGS)
+
+Interpreter/Lex/lex.o: Interpreter/Lex/lex.cpp
+	$(CPP) -c Interpreter/Lex/lex.cpp -o Interpreter/Lex/lex.o $(CXXFLAGS)
+
+RecordManager/RecordManager.o: RecordManager/RecordManager.cpp
+	$(CPP) -c RecordManager/RecordManager.cpp -o RecordManager/RecordManager.o $(CXXFLAGS)
+
+MiniSQL.o: MiniSQL.cpp
+	$(CPP) -c MiniSQL.cpp -o MiniSQL.o $(CXXFLAGS)

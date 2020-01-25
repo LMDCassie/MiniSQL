@@ -1,0 +1,53 @@
+select * from person where id=1000000245; 
+
+select * from person where score=98.5;
+
+select * from person where name='minisql100245'; 
+
+select * from person where id<>1000009998; 
+
+select * from person where score<>98.5; 
+
+select * from person where name<>'minisql109998'; 
+
+select * from person where score>80 and score<85; 
+
+select * from person where score>95 and id<=1000000100; 
+
+insert into person values(1000000245,'minisql100245',100); 
+
+
+create index personidx on person (name); 
+select * from person where name='minisql100245'; 
+
+insert into person values(1000297996,'minisql297996',100, 24, 'F'); 
+
+select * from person where name='minisql297996'; 
+
+delete from person where name='minisql297996'; 
+
+select * from person where name='minisql297996';
+
+insert into person values(1000297996,'minisql297996',100, 24, 'F');
+
+drop index personidx; 
+
+select * from person where name='minisql297996'; 
+
+select * from person where name='minisql100245'; 
+
+delete from person where id=1000000245; 
+
+select * from person where id=1000000245;
+
+delete from person where score=98.5; 
+
+select * from person where score=98.5;
+
+delete from person; 
+
+select * from person;
+
+drop table person; 
+
+select * from person;

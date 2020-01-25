@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10427C8E1BE72B9B0079E9DA /* MiniSQL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10427C8D1BE72B9B0079E9DA /* MiniSQL.cpp */; };
+		10427C931BE72BAC0079E9DA /* SQLGrammarTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10427C911BE72BAC0079E9DA /* SQLGrammarTree.cpp */; };
+		10427C961BE72BB40079E9DA /* Analysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10427C941BE72BB40079E9DA /* Analysis.cpp */; };
+		10427C981BE72BC00079E9DA /* lex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10427C971BE72BC00079E9DA /* lex.cpp */; };
+		10427C9B1BE72BCA0079E9DA /* API.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10427C991BE72BCA0079E9DA /* API.cpp */; };
+		10427C9E1BE72BDB0079E9DA /* RecordManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10427C9C1BE72BDB0079E9DA /* RecordManager.cpp */; };
+		10427CA31BE72BE60079E9DA /* bplus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10427C9F1BE72BE60079E9DA /* bplus.cpp */; };
+		10427CA41BE72BE60079E9DA /* IndexManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10427CA11BE72BE60079E9DA /* IndexManager.cpp */; };
+		10427CA71BE72BF10079E9DA /* CatalogManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10427CA51BE72BF10079E9DA /* CatalogManager.cpp */; };
+		10427CAA1BE72BF90079E9DA /* BufferManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10427CA81BE72BF90079E9DA /* BufferManager.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		10427C811BE72B620079E9DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		10427C831BE72B620079E9DA /* Minisql */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Minisql; sourceTree = BUILT_PRODUCTS_DIR; };
+		10427C8D1BE72B9B0079E9DA /* MiniSQL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MiniSQL.cpp; path = ../../MiniSQL.cpp; sourceTree = "<group>"; };
+		10427C8F1BE72BA10079E9DA /* MiniSQL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MiniSQL.h; path = ../../MiniSQL.h; sourceTree = "<group>"; };
+		10427C901BE72BAC0079E9DA /* Interpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Interpreter.h; path = ../../Interpreter/Interpreter.h; sourceTree = "<group>"; };
+		10427C911BE72BAC0079E9DA /* SQLGrammarTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SQLGrammarTree.cpp; path = ../../Interpreter/SQLGrammarTree.cpp; sourceTree = "<group>"; };
+		10427C921BE72BAC0079E9DA /* SQLGrammarTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLGrammarTree.h; path = ../../Interpreter/SQLGrammarTree.h; sourceTree = "<group>"; };
+		10427C941BE72BB40079E9DA /* Analysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Analysis.cpp; path = ../../Interpreter/Lex/Analysis.cpp; sourceTree = "<group>"; };
+		10427C951BE72BB40079E9DA /* Analysis.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Analysis.hpp; path = ../../Interpreter/Lex/Analysis.hpp; sourceTree = "<group>"; };
+		10427C971BE72BC00079E9DA /* lex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lex.cpp; path = ../../Interpreter/Lex/lex.cpp; sourceTree = "<group>"; };
+		10427C991BE72BCA0079E9DA /* API.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = API.cpp; path = ../../API/API.cpp; sourceTree = "<group>"; };
+		10427C9A1BE72BCA0079E9DA /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = API.h; path = ../../API/API.h; sourceTree = "<group>"; };
+		10427C9C1BE72BDB0079E9DA /* RecordManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RecordManager.cpp; path = ../../RecordManager/RecordManager.cpp; sourceTree = "<group>"; };
+		10427C9D1BE72BDB0079E9DA /* RecordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecordManager.h; path = ../../RecordManager/RecordManager.h; sourceTree = "<group>"; };
+		10427C9F1BE72BE60079E9DA /* bplus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bplus.cpp; path = ../../IndexManager/bplus.cpp; sourceTree = "<group>"; };
+		10427CA01BE72BE60079E9DA /* bplus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bplus.h; path = ../../IndexManager/bplus.h; sourceTree = "<group>"; };
+		10427CA11BE72BE60079E9DA /* IndexManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IndexManager.cpp; path = ../../IndexManager/IndexManager.cpp; sourceTree = "<group>"; };
+		10427CA21BE72BE60079E9DA /* IndexManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IndexManager.h; path = ../../IndexManager/IndexManager.h; sourceTree = "<group>"; };
+		10427CA51BE72BF10079E9DA /* CatalogManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CatalogManager.cpp; path = ../../CatalogManager/CatalogManager.cpp; sourceTree = "<group>"; };
+		10427CA61BE72BF10079E9DA /* CatalogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CatalogManager.h; path = ../../CatalogManager/CatalogManager.h; sourceTree = "<group>"; };
+		10427CA81BE72BF90079E9DA /* BufferManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BufferManager.cpp; path = ../../BufferManager/BufferManager.cpp; sourceTree = "<group>"; };
+		10427CA91BE72BF90079E9DA /* BufferManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BufferManager.h; path = ../../BufferManager/BufferManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10427C801BE72B620079E9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10427C7A1BE72B620079E9DA = {
+			isa = PBXGroup;
+			children = (
+				10427C851BE72B620079E9DA /* Minisql */,
+				10427C841BE72B620079E9DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10427C841BE72B620079E9DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10427C831BE72B620079E9DA /* Minisql */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10427C851BE72B620079E9DA /* Minisql */ = {
+			isa = PBXGroup;
+			children = (
+				10427C8D1BE72B9B0079E9DA /* MiniSQL.cpp */,
+				10427C8F1BE72BA10079E9DA /* MiniSQL.h */,
+				10427C901BE72BAC0079E9DA /* Interpreter.h */,
+				10427C911BE72BAC0079E9DA /* SQLGrammarTree.cpp */,
+				10427C941BE72BB40079E9DA /* Analysis.cpp */,
+				10427C951BE72BB40079E9DA /* Analysis.hpp */,
+				10427C921BE72BAC0079E9DA /* SQLGrammarTree.h */,
+				10427C971BE72BC00079E9DA /* lex.cpp */,
+				10427C991BE72BCA0079E9DA /* API.cpp */,
+				10427C9A1BE72BCA0079E9DA /* API.h */,
+				10427C9C1BE72BDB0079E9DA /* RecordManager.cpp */,
+				10427C9D1BE72BDB0079E9DA /* RecordManager.h */,
+				10427C9F1BE72BE60079E9DA /* bplus.cpp */,
+				10427CA01BE72BE60079E9DA /* bplus.h */,
+				10427CA11BE72BE60079E9DA /* IndexManager.cpp */,
+				10427CA21BE72BE60079E9DA /* IndexManager.h */,
+				10427CA51BE72BF10079E9DA /* CatalogManager.cpp */,
+				10427CA61BE72BF10079E9DA /* CatalogManager.h */,
+				10427CA81BE72BF90079E9DA /* BufferManager.cpp */,
+				10427CA91BE72BF90079E9DA /* BufferManager.h */,
+			);
+			path = Minisql;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10427C821BE72B620079E9DA /* Minisql */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10427C8A1BE72B620079E9DA /* Build configuration list for PBXNativeTarget "Minisql" */;
+			buildPhases = (
+				10427C7F1BE72B620079E9DA /* Sources */,
+				10427C801BE72B620079E9DA /* Frameworks */,
+				10427C811BE72B620079E9DA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Minisql;
+			productName = Minisql;
+			productReference = 10427C831BE72B620079E9DA /* Minisql */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10427C7B1BE72B620079E9DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = hzfmacbook;
+				TargetAttributes = {
+					10427C821BE72B620079E9DA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 10427C7E1BE72B620079E9DA /* Build configuration list for PBXProject "Minisql" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10427C7A1BE72B620079E9DA;
+			productRefGroup = 10427C841BE72B620079E9DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10427C821BE72B620079E9DA /* Minisql */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10427C7F1BE72B620079E9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10427CA31BE72BE60079E9DA /* bplus.cpp in Sources */,
+				10427CAA1BE72BF90079E9DA /* BufferManager.cpp in Sources */,
+				10427CA71BE72BF10079E9DA /* CatalogManager.cpp in Sources */,
+				10427C9E1BE72BDB0079E9DA /* RecordManager.cpp in Sources */,
+				10427C931BE72BAC0079E9DA /* SQLGrammarTree.cpp in Sources */,
+				10427C981BE72BC00079E9DA /* lex.cpp in Sources */,
+				10427CA41BE72BE60079E9DA /* IndexManager.cpp in Sources */,
+				10427C9B1BE72BCA0079E9DA /* API.cpp in Sources */,
+				10427C8E1BE72B9B0079E9DA /* MiniSQL.cpp in Sources */,
+				10427C961BE72BB40079E9DA /* Analysis.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10427C881BE72B620079E9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		10427C891BE72B620079E9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		10427C8B1BE72B620079E9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10427C8C1BE72B620079E9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10427C7E1BE72B620079E9DA /* Build configuration list for PBXProject "Minisql" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10427C881BE72B620079E9DA /* Debug */,
+				10427C891BE72B620079E9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10427C8A1BE72B620079E9DA /* Build configuration list for PBXNativeTarget "Minisql" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10427C8B1BE72B620079E9DA /* Debug */,
+				10427C8C1BE72B620079E9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10427C7B1BE72B620079E9DA /* Project object */;
+}
